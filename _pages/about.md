@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Recent PhD graduate from the University of Arizona, EEB, with [Dr. Anna Dornhaus](https://www.annadornhaus.net/)
+subtitle: Recent PhD graduate from the University of Arizona, EEB, with [Dr. Anna Dornhaus](https://www.annadornhaus.net/).
 
 profile:
   align: right
@@ -19,6 +19,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-TODO: biography; name your picture `prof_pic.jpg` and put it in the `img/` folder.
+TODO: biography; news; projects; CV; teaching; what else I'm passionate about.
 
 You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/StefanMPopp/publications/) automatically.
