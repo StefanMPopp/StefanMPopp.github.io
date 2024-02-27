@@ -19,6 +19,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-TODO: biography; news; projects; CV; teaching; what else I'm passionate about.
+TODO: biography/links to projects; Anna's link; news; projects; CV; teaching; what else I'm passionate about.
 
 You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/StefanMPopp/publications/) automatically.
