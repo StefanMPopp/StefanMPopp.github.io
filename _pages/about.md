@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. a
+subtitle: <a href='#'>Affiliations</a>. Recent PhD graduate from the University of Arizona, EEB, with Dr. Anna Dornhaus
 
 profile:
   align: right
