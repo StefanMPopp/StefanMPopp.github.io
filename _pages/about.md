@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Recent PhD graduate from the <a href='#'>University of Arizona</a> with [Anna Dornhaus](https://www.annadornhaus.net/)
 
 profile:
   align: right
