@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: No aff Recent PhD graduate from the University of Arizona, EEB, with [Dr. Anna Dornhaus](https://www.annadornhaus.net/)
+subtitle: Recent PhD graduate from the University of Arizona, EEB, with [Dr. Anna Dornhaus](https://www.annadornhaus.net/)
 
 profile:
   align: right
