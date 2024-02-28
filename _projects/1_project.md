@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: ant search
+description: PhD work: patterns & strategies of ants searching for novel resources
+img: assets/img/publication_preview/mndr_graph.jpg
 importance: 1
 category: research
 related_publications: true
@@ -10,14 +10,7 @@ related_publications: true
 
 Main PhD work: Ant search strategies for targets of unkown locations.
 
-I let whole colonies of ants search freely in a custom-built large arena which I recorded with 4 cameras to track the ants' movements with [TRex](trex.run). Since I was interested in their search behavior for novel targets, I never added any resources in the arena.
-
-    ---
-    layout: page
-    title: project
-    description: The arena
-    img: /assets/img/12.jpg
-    ---
+I let whole colonies of ants search freely in a custom-built large arena which I recorded with 4 cameras to track the ants' movements with [TRex](https:\\www.trex.run). Since I was interested in their search behavior for novel targets, I never added any resources in the arena.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -31,8 +24,11 @@ I let whole colonies of ants search freely in a custom-built large arena which I
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Left: _Temnothorax rugatulus_, Middle: Artificial nest with colony which was placed in the arena underneath a layer of paper. Right: Experimental arena (2x3 m).
 </div>
+
+TODO: Something about the pipeline of ffmpeg in bash & how I made a whole MATLAB program w/ tutorials for undergrads `pictures`
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -42,9 +38,8 @@ I let whole colonies of ants search freely in a custom-built large arena which I
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+TODO: The things we found, wtih `citations` {% cite popp %}.
+Key results, with significance
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
