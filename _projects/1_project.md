@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ant search
-description: PhD work: patterns & strategies of ants searching for novel resources
+description: PhD work - patterns & strategies of ants searching for novel resources
 img: assets/img/publication_preview/mndr_graph.jpg
 importance: 1
 category: research
