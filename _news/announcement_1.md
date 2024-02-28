@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-02-27 21:12:00-0400
+date: 2023-08-18 15:00:00-0400
 inline: true
 related_posts: false
 ---
 
-Hello, world! This website goes live.
+I officially got my PhD!
