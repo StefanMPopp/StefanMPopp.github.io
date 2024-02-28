@@ -21,4 +21,9 @@ social: true # includes social icons at the bottom of the page
 
 TODO: biography/links to projects; Anna's link; news; projects; CV; teaching; what else I'm passionate about.
 
-You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/StefanMPopp/publications/) automatically.
+I am a behavioral biologist trying to uncover the rules of behavior, the 'behavioral algorithms', or the 'program' runnnig in the 'minds' of organisms when making a decision. I am mainly interested in 'simple' organisms like ants, but am equally fascinated by the algorithms in human behavior.
+
+I am currently working on an agent-based model helping to explain how ants searching for resources create regular meanders on multiple scales, and how much more efficient this search strategy is compared to simpler alternatives.
+
+Throughout my undergrad and master's studies I have been focusing on ants as a model system, performing research on their [communication](/projects/4_project/), colony organization, and foraging behaviors. During my [PhD](/projects/1_project/), I investigated the movement patterns of ants as they were searching for resources of unknown location.
+During this time I also performed modeling studies on [collective behavior](/projects/2_project/) and track processing methods in [movement ecology](/projects/3_project/).
