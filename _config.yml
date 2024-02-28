@@ -15,7 +15,7 @@ footer_text: >
   Photos by Stefan Popp
 keywords: scientist, biology, ants, behavior, movement, meander, fish, model, data, analysis, arizona # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: :ant: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://StefanMPopp.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -98,13 +98,13 @@ pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: stefan_popp # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  Email works best!
+  The only regular posts I make are on YouTube...
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
