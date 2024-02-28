@@ -4,20 +4,18 @@ title: project 1
 description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Main PhD work: Ant search strategies for targets of unkown locations.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+I let whole colonies of ants search freely in a custom-built large arena which I recorded with 4 cameras to track the ants' movements with [TRex](trex.run). Since I was interested in their search behavior for novel targets, I never added any resources in the arena.
 
     ---
     layout: page
     title: project
-    description: a project with a background image
+    description: The arena
     img: /assets/img/12.jpg
     ---
 
