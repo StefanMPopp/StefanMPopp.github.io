@@ -31,11 +31,10 @@ I let whole colonies of ants search freely in a custom-built large arena which I
 <h3>analysis</h3>
 I preprocessed the 4 5h long 4K videos with a bash routine, first applying filters in ffmpeg and cutting them up for more accurate tracking. The processed videos were then fully automatically tracked with [TRex](https:\\www.trex.run).
 
-<details><summary>ffmpeg pipeline</summary>
+<details>
+    <summary>ffmpeg pipeline</summary>
 
-```
-code should be here
-```
+`code should be here`
 
 </details>
 
