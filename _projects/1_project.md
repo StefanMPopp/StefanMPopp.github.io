@@ -31,9 +31,7 @@ I let whole colonies of ants search freely in a custom-built large arena which I
 <h3>analysis</h3>
 I preprocessed the 4 5h long 4K videos with a bash routine, first applying filters in ffmpeg and cutting them up for more accurate tracking. The processed videos were then fully automatically tracked with [TRex](https:\\www.trex.run).
 
-<details><summary>stuff with *mark* **down**</summary><p>
-
-## _formatted_ **heading**
+<details><summary>ffmpeg pipeline</summary><p>
 
 ```
     #!/bin/bash
@@ -44,6 +42,9 @@ I preprocessed the 4 5h long 4K videos with a bash routine, first applying filte
     vid="$1" # e.g. T1
     cam="$2" # e.g. NE
     st="$3" # start time in s, e.g. 12
+
+    # run the command <name of this file> vid cam st
+    # Example: ffmpegScript T1 NE 12
     
     #######################################################
     #                      Explanation                    #
