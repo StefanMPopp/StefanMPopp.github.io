@@ -8,7 +8,8 @@ category: research
 related_publications: true
 ---
 
-These are the first 3 chapters of my PhD thesis
+These are the first 3 chapters of my PhD thesis.
+
 
 <h3>methods</h3>
 I let 5 whole colonies of ants search freely in a custom-built large arena which I recorded with 4 cameras to track the ants' movements. Since I was interested in their search behavior for novel targets, I never added any resources in the arena.
@@ -47,7 +48,7 @@ For the following data cleaning and annotation, I developed an extensive routine
 
 <h3>results</h3>
 <h4>ants meander regularly</h4>
-text
+Ants do not merely walk purely randomly, as was previously assumed, but rather meander in regularly alternating smooth turns. This systematic element makes their search patterns more space-filling, and thus efficient, while the randomness conserves flexiblity and robustness to noise and obstacles.
 {% cite popp_ants_2023 %}
 
 <div class="row justify-content-sm-center">
@@ -63,7 +64,7 @@ text
 </div>
 
 <h4>ants explore more near the nest in a novel environment</h4>
-Text
+The study species often relocates their nest, requiring the foragers to get familiar with their new environment for effective navigation and search. Over 3 days after being placed into a new arena, ants moved less only near the nest, where movements are slower and curvier. This reflects a shift from familiarization or marking to searching. However, we don't see stereotyped 'learning walks', like in some desert ant species.
 {% cite popp_ant_2023 %}
 
 <div class="row justify-content-sm-center">
@@ -82,8 +83,8 @@ Text
 </div>
 
 <h4>ants do not coordinate their search much through chemical signals</h4>
-text
-To be replaced one published: {% cite popp_ant_2023 %}
+Previous work showed that ants walk straighter and faster on surfaces which are marked with chemical footprints of nestmates. We find the opposite effect, which we explain by a) footprints making ants walk straighter, and b) interindividual variation combined with environmental heterogeneity mean reverse causation to the expected. In nature, environmental cues are likely more important than chemical footprints. 
+To be replaced once published: {% cite popp_ant_2023 %}
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
