@@ -68,14 +68,17 @@ Text
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/tr_extreme_F1small.bmp" title="sharkSmall" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/f1_heat.png" title="sharkSmall" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/trShrkfin.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/f2_disp.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/f4b_tracks.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    <strong>Left:</strong> Heatmaps of 3 days. <strong>Right:</strong> Histograms?
+    <strong>Left:</strong> Heatmaps of all ant locations on the 3 days. <strong>Middle</strong> Histograms of ant locations by nest distance: on subsequent days, i.e., with increasing familiarity of the ants with the arena, there are fewer exploratory movements near the nest <strong>Right:</strong> Tracks from the first 5 min on the first day, vs the last 5 min on the last day. There is no measurable difference in movement patterns, i.e. no special 'learning walks'.
 </div>
 
 <h4>ants do not coordinate their search much through chemical signals</h4>
@@ -84,34 +87,12 @@ To be replaced one published: {% cite popp_ant_2023 %}
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/tr_extreme_F1small.bmp" title="sharkSmall" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/fpHeatVari.png" title="heatmap with variation tracks" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/trShrkfin.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/fpHeatTape.png" title="heatmap with tape" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    <strong>Left:</strong> Heatmap w/ circles? <strong>Right:</strong> something else?
+    <strong>Left:</strong> Heatmap of all ant points on the 3rd day, with an illustration of interindividual variation in path straightness <strong>Right:</strong> Heatmap with illustration of the locations of adhesive tape several layers below the topmost paper.
 </div>
-
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
