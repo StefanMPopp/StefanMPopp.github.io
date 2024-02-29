@@ -29,37 +29,7 @@ I let whole colonies of ants search freely in a custom-built large arena which I
 </div>
 
 <h3>analysis</h3>
-I preprocessed the 4 5h long 4K videos with a bash routine, first applying filters in ffmpeg ([code](https://github.com/StefanMPopp/antSearch_dataProcessing/blob/main/batchffmpeg)) and cutting them up for more accurate tracking. The processed videos were then fully automatically tracked with [TRex](https:\\www.trex.run).
-
-
-TRex pipeline
-```
-#!/bin/bash
-#dir="/media/stefan/HRM"
-dir="/home/stefan/Desktop/2020_clone"
-vid="$1" # e.g. T1
-cam="$2" # e.g. SW
-exp="HRM"
-
-echo "${col} " > ~/Desktop/progress # Writes current computing progress into a text file
-for pt in 01 02 03 04 05 06 07 08 09 10
-do
- tic=$SECONDS
- tgrabs -i ${dir}/allVids/${exp}_${vid}_${cam}${pt}.MP4 -s ${dir}/trex/tgrabs${cam}.settings -d $dir/tGrabOut &&
- trex -i ${dir}/tGrabOut/${exp}_${vid}_${cam}${pt}.pv -s ${dir}/trex/trex${cam}.settings -d ${dir}/tracks -fishdata_dir ${exp}_${vid}_rawIndiv
- toc=$(($SECONDS - tic)) # Computation time
- echo "${cam}${pt} in ${toc}s" >> ~/Desktop/progress # Writes computing time to progress file for computing time estimation.
-done
-
-find ${dir}/tracks -name "*.csv" -type 'f' -size 63c -delete # deletes empty files (<63 bytes)
-
-framesListPath=${dir}/allVids/${exp}_${vid}_framesList.txt
-if test -f "$framesListPath"; then
-    if test -f "${exp}_${vid}_rawIndiv"; then
-        mv ${framesListPath} ${dir}/tracks/${exp}_${vid}_rawIndiv # Moves file with frame #s per video chunk to the folder w/ the current tracks. Needed for track concatenation in MATLAB tr1CatStitch 
-    fi
-fi
-```
+I preprocessed the 4 5h long 4K videos with a bash routine, first applying filters in ffmpeg and cutting them up for more accurate tracking ([code](https://github.com/StefanMPopp/antSearch_dataProcessing/blob/main/batchffmpeg)). The processed videos were then fully automatically tracked with [TRex](https:\\www.trex.run) ([bash script](https://github.com/StefanMPopp/antSearch_dataProcessing/blob/main/batchTrex).
 
 TODO: I made a whole MATLAB program w/ tutorials for undergrads `tutorial video`
 
@@ -72,8 +42,8 @@ TODO: I made a whole MATLAB program w/ tutorials for undergrads `tutorial video`
     This image can also have a caption. It's like magic.
 </div>
 
-TODO: The things we found, wtih `citations` {% cite popp_ants_2023 %}.{% cite popp_ant_2023 %}, {% cite popp_ant_2023 %}
-Key results, with significance
+TODO: The things we found: Pics of meandering, explore heatmaps/histograms, and FP heatmap? {% cite popp_ants_2023 %}.{% cite popp_ant_2023 %}, {% cite popp_ant_2023 %}
+Key results from SICB app, with significance?
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
