@@ -34,7 +34,6 @@ I preprocessed the 4 5h long 4K videos with a bash routine, first applying filte
 <details><summary>ffmpeg pipeline</summary>
     <p>
 
-```
     #!/bin/bash
     dir="/home/stefan/Desktop/2020_clone" # highest common diectory path of input & output of videos
     dirIn='/HRM_V' # input path starting from dir
@@ -66,7 +65,6 @@ I preprocessed the 4 5h long 4K videos with a bash routine, first applying filte
     #ffmpeg -i ${dir}${dirIn}/HRM_${vid}_${cam}2.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}08.MP4 &&
     #ffmpeg -ss 0:30:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}2.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}09.MP4 &&
     #ffmpeg -ss 1:00:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}2.MP4 -t 0:30:${st} -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}10.MP4
-    ```
 
     </p>
 </details>
