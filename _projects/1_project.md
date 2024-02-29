@@ -35,7 +35,7 @@ For the following data cleaning and annotation, I developed an extensive routine
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/allTracksAlltimeT1.avi" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include figure.liquid path="assets/img/allTracksT1.png" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="https://youtu.be/egDTFIUHBgs?si=Fw6ms9JmLctgJiy_" class="img-fluid rounded z-depth-1" %}
@@ -45,7 +45,9 @@ For the following data cleaning and annotation, I developed an extensive routine
     <strong>Left:</strong>Ant paths from one colony evolving over the 5 h of one trial. <strong>Right:</strong>Tutorial for the joining of erroneously broken up tracks.
 </div>
 
-TODO: The things we found: Pics of meandering, explore heatmaps/histograms, and FP heatmap? {% cite popp_ants_2023 %}.{% cite popp_ant_2023 %}, {% cite popp_ant_2023 %}
+TODO: The things we found: Pics of meandering, explore heatmaps/histograms, and FP heatmap? Meander: {% cite popp_ants_2023 %}
+Exploration: {% cite popp_ant_2023 %}
+FP to be replaced: {% cite popp_ant_2023 %}
 Key results from SICB app, with significance?
 
 
