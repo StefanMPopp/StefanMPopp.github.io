@@ -34,16 +34,20 @@ I preprocessed the 4 5h long 4K videos with a bash routine, first applying filte
 For the following data cleaning and annotation, I developed an extensive routine which allowed for semi-automatic aligning and combination of different data sets, outlier exclusion, and tracking error correction. This involved various scripts for the creation of 3D interactive plots with specific functionalities to enable the visual inspection and correction of data. The manual part of the data correction was mainly carried out by undergraduate research assistants which I mentored. The whole data pipeline was thus designed to be user friendly, reproducible, and contained validity checks. I created several tutorials which helped with the training of this complex set of tasks.
 
 <div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://youtu.be/egDTFIUHBgs?si=JwsC2oXjLzbzESXB" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    <strong>Left:</strong>Ant paths from one colony evolving over the 5 h of one trial<strong>Right:</strong>Tutorial for the joining of erroneously broken up tracks.
+    <strong>Left:</strong>Ant paths from one colony evolving over the 5 h of one trial. <strong>Right:</strong>Tutorial for the joining of erroneously broken up tracks.
 </div>
 
 TODO: The things we found: Pics of meandering, explore heatmaps/histograms, and FP heatmap? {% cite popp_ants_2023 %}.{% cite popp_ant_2023 %}, {% cite popp_ant_2023 %}
 Key results from SICB app, with significance?
+
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
