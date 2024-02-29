@@ -28,17 +28,17 @@ I let 5 whole colonies of ants search freely in a custom-built large arena which
     <strong>Left:</strong> The study species, <em>Temnothorax rugatulus</em> (by Takao Sasaki), <strong>Middle:</strong> Artificial nest with colony which was placed in the arena underneath a layer of paper. <strong>Right:</strong> Experimental arena (2x3 m, ~1000x an ant's size).
 </div>
 
-<h3>analysis</h3>
+<h3>data processing</h3>
 I preprocessed the 4 5h long 4K videos with a bash routine, first applying filters in ffmpeg and cutting them up for more accurate tracking ([bash script](https://github.com/StefanMPopp/antSearch_dataProcessing/blob/main/batchffmpeg)). The processed videos were then fully automatically tracked with [TRex](https:\\www.trex.run) ([bash script](https://github.com/StefanMPopp/antSearch_dataProcessing/blob/main/batchTrex)).
 
 For the following data cleaning and annotation, I developed an extensive routine which allowed for semi-automatic aligning and combination of different data sets, outlier exclusion, and tracking error correction. This involved various scripts for the creation of 3D interactive plots with specific functionalities to enable the visual inspection and correction of data. The manual part of the data correction was mainly carried out by undergraduate research assistants which I mentored. The whole data pipeline was thus designed to be user friendly, reproducible, and contained validity checks. I created several tutorials which helped with the training of this complex set of tasks.
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/video/allTracksAlltimeT1.avi" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://youtu.be/egDTFIUHBgs?si=JwsC2oXjLzbzESXB" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://youtu.be/egDTFIUHBgs?si=Fw6ms9JmLctgJiy_" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -51,7 +51,7 @@ Key results from SICB app, with significance?
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/tr_extreme_F1small.bmp" title="sharkSmall" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
