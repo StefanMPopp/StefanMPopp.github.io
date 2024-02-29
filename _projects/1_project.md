@@ -29,48 +29,8 @@ I let whole colonies of ants search freely in a custom-built large arena which I
 </div>
 
 <h3>analysis</h3>
-I preprocessed the 4 5h long 4K videos with a bash routine, first applying filters in ffmpeg and cutting them up for more accurate tracking. The processed videos were then fully automatically tracked with [TRex](https:\\www.trex.run).
+I preprocessed the 4 5h long 4K videos with a bash routine, first applying filters in ffmpeg ([code](https://github.com/StefanMPopp/antSearch_dataProcessing/blob/main/batchffmpeg)) and cutting them up for more accurate tracking. The processed videos were then fully automatically tracked with [TRex](https:\\www.trex.run).
 
-<details>
-    <summary>ffmpeg pipeline</summary>
-
-`code should be here`
-
-</details>
-
-```
-    #!/bin/bash
-    dir="/home/stefan/Desktop/2020_clone" # highest common diectory path of input & output of videos
-    dirIn='/HRM_V' # input path starting from dir
-    dirOut='/allVids' # output path starting from dir
-    
-    vid="$1" # e.g. T1
-    cam="$2" # e.g. NE
-    st="$3" # start time in s, e.g. 12
-
-    # run the command <name of this file> vid cam st
-    # Example: ffmpegScript T1 NE 12
-    
-    #######################################################
-    #                      Explanation                    #
-    # -ss start time                                      #
-    # -t  end time                                        #
-    # -an sound not exported                              #
-    # -vf video filter (increasing contrast & brigthness) #
-    # -b  output bitrate                                  #
-    #######################################################
-    
-    #ffmpeg -ss 0:00:${st} -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}01.MP4 &&
-    #ffmpeg -ss 0:30:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}02.MP4 &&
-    #ffmpeg -ss 1:00:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}03.MP4 &&
-    #ffmpeg -ss 1:30:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}04.MP4 &&
-    #ffmpeg -ss 2:00:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}05.MP4 &&
-    #ffmpeg -ss 2:30:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}06.MP4 &&
-    #ffmpeg -ss 3:00:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}07.MP4 &&
-    #ffmpeg -i ${dir}${dirIn}/HRM_${vid}_${cam}2.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}08.MP4 &&
-    #ffmpeg -ss 0:30:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}2.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}09.MP4 &&
-    #ffmpeg -ss 1:00:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}2.MP4 -t 0:30:${st} -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}10.MP4
-```
 
 TRex pipeline
 ```
