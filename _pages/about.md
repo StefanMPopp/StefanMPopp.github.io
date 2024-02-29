@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Recent PhD graduate from the University of Arizona, EEB, with <a href="https://www.annadornhaus.net/">Dr. Anna Dornhaus</a> [Dr. Anna Dornhaus](https://www.annadornhaus.net/).
+subtitle: Recent PhD graduate of the <a href="https://www.arizona.edu/">University of Arizona</a>, <a href="https://www.eeb.arizona.edu/">EEB</a>, working with <a href="https://www.annadornhaus.net/">Dr. Anna Dornhaus</a>.
 
 profile:
   align: right
@@ -19,9 +19,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-TODO: biography/links to projects; Anna's link; news; projects; CV; teaching; what else I'm passionate about.
+TODO: news; projects; CV; teaching; what else I'm passionate about.
 
-I am a behavioral biologist trying to uncover the rules of behavior, the 'behavioral algorithms', or the 'program' runnnig in the 'minds' of organisms when making a decision. I am mainly interested in 'simple' organisms like ants, but am equally fascinated by the algorithms in human behavior.
+As a recent PhD graduate in animal behavior, I have gained extensive experience in data analysis, manipulation, and visualization, using various software tools and languages, such as MATLAB, Python, R, and bash. I have applied my skills to study the complex and fascinating patterns of ant movement and communication, using advanced video tracking and statistical analysis techniques.
+
+I am passionate about finding answers from data and solving technical problems, as well as collaborating with experts from different fields. I have initiated and contributed to several interdisciplinary projects with computer scientists and mathematicians, resulting in multiple publications and presentations. I am also a proficient and quick writer, with a keen eye for detail and quality. I am eager to work on projects and challenges which allow me to have a tangible real-world impact.
 
 I am currently working on an agent-based model helping to explain how ants searching for resources create regular meanders on multiple scales, and how much more efficient this search strategy is compared to simpler alternatives.
 
