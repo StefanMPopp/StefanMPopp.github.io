@@ -45,23 +45,56 @@ For the following data cleaning and annotation, I developed an extensive routine
     <strong>Left:</strong>Ant paths from one colony evolving over the 5 h of one trial. <strong>Right:</strong>Tutorial for the joining of erroneously broken up tracks.
 </div>
 
-TODO: The things we found: Pics of meandering, explore heatmaps/histograms, and FP heatmap? Meander: {% cite popp_ants_2023 %}
-Exploration: {% cite popp_ant_2023 %}
-FP to be replaced: {% cite popp_ant_2023 %}
-Key results from SICB app, with significance?
-
+<h3>results</h3>
+<h4>ants meander regularly</h4>
+text
+{% cite popp_ants_2023 %}
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/tr_extreme_F1small.bmp" title="sharkSmall" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/trShrkfin.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    <strong>Left:</strong> Track section of a strongly meandering ant. Grid lines are 20 cm apart. <strong>Right:</strong> Close-up example of a meandering track.
 </div>
+
+<h4>ants explore more near the nest in a novel environment</h4>
+Text
+{% cite popp_ant_2023 %}
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/tr_extreme_F1small.bmp" title="sharkSmall" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/trShrkfin.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    <strong>Left:</strong> Heatmaps of 3 days. <strong>Right:</strong> Histograms?
+</div>
+
+<h4>ants do not coordinate their search much through chemical signals</h4>
+text
+To be replaced one published: {% cite popp_ant_2023 %}
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/tr_extreme_F1small.bmp" title="sharkSmall" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/trShrkfin.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    <strong>Left:</strong> Heatmap w/ circles? <strong>Right:</strong> something else?
+</div>
+
+
 
 The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
