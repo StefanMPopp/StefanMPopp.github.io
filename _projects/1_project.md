@@ -10,7 +10,7 @@ related_publications: true
 
 These are the first 3 chapters of my PhD thesis
 
-<h2>Methods</h2>
+<h3>methods</h3>
 I let whole colonies of ants search freely in a custom-built large arena which I recorded with 4 cameras to track the ants' movements. Since I was interested in their search behavior for novel targets, I never added any resources in the arena.
 
 <div class="row">
@@ -28,39 +28,47 @@ I let whole colonies of ants search freely in a custom-built large arena which I
     <strong>Left:</strong> The study species, <em>Temnothorax rugatulus</em> (by Takao Sasaki), <strong>Middle:</strong> Artificial nest with colony which was placed in the arena underneath a layer of paper. <strong>Right:</strong> Experimental arena (2x3 m, ~1000x an ant's size).
 </div>
 
-<h3>Analysis</h3>
+<h3>analysis</h3>
 I preprocessed the 4 5h long 4K videos with a bash routine, first applying filters in ffmpeg and cutting them up for more accurate tracking. The processed videos were then fully automatically tracked with [TRex](https:\\www.trex.run).
 
-```
-#!/bin/bash
-dir="/home/stefan/Desktop/2020_clone" # highest common diectory path of input & output of videos
-dirIn='/HRM_V' # input path starting from dir
-dirOut='/allVids' # output path starting from dir
+<div>
+  <input type="checkbox" id="toggle" class="unfolder"/> 
+  <label for="toggle" class="toggle-label"><span class="unfold-icon">&#9654;</span><span class="fold-icon">&#9660;</span> ffmpeg pipeline</label>
+    		
+  <div class="fold">
+    ```
+    #!/bin/bash
+    dir="/home/stefan/Desktop/2020_clone" # highest common diectory path of input & output of videos
+    dirIn='/HRM_V' # input path starting from dir
+    dirOut='/allVids' # output path starting from dir
+    
+    vid="$1" # e.g. T1
+    cam="$2" # e.g. NE
+    st="$3" # start time in s, e.g. 12
+    
+    #######################################################
+    #                      Explanation                    #
+    # -ss start time                                      #
+    # -t  end time                                        #
+    # -an sound not exported                              #
+    # -vf video filter (increasing contrast & brigthness) #
+    # -b  output bitrate                                  #
+    #######################################################
+    
+    #ffmpeg -ss 0:00:${st} -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}01.MP4 &&
+    #ffmpeg -ss 0:30:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}02.MP4 &&
+    #ffmpeg -ss 1:00:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}03.MP4 &&
+    #ffmpeg -ss 1:30:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}04.MP4 &&
+    #ffmpeg -ss 2:00:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}05.MP4 &&
+    #ffmpeg -ss 2:30:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}06.MP4 &&
+    #ffmpeg -ss 3:00:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}07.MP4 &&
+    #ffmpeg -i ${dir}${dirIn}/HRM_${vid}_${cam}2.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}08.MP4 &&
+    #ffmpeg -ss 0:30:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}2.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}09.MP4 &&
+    #ffmpeg -ss 1:00:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}2.MP4 -t 0:30:${st} -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}10.MP4
+    ```
+   </div>
+</div>
 
-vid="$1" # e.g. T1
-cam="$2" # e.g. NE
-st="$3" # start time in s, e.g. 12
-
-#######################################################
-#                      Explanation                    #
-# -ss start time                                      #
-# -t  end time                                        #
-# -an sound not exported                              #
-# -vf video filter (increasing contrast & brigthness) #
-# -b  output bitrate                                  #
-#######################################################
-
-#ffmpeg -ss 0:00:${st} -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}01.MP4 &&
-#ffmpeg -ss 0:30:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}02.MP4 &&
-#ffmpeg -ss 1:00:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}03.MP4 &&
-#ffmpeg -ss 1:30:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}04.MP4 &&
-#ffmpeg -ss 2:00:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}05.MP4 &&
-#ffmpeg -ss 2:30:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}06.MP4 &&
-#ffmpeg -ss 3:00:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}1.MP4 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}07.MP4 &&
-#ffmpeg -i ${dir}${dirIn}/HRM_${vid}_${cam}2.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}08.MP4 &&
-#ffmpeg -ss 0:30:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}2.MP4 -t 0:30:02 -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}09.MP4 &&
-#ffmpeg -ss 1:00:00 -i ${dir}${dirIn}/HRM_${vid}_${cam}2.MP4 -t 0:30:${st} -an -vf eq=contrast=2.6:brightness=0.5 -b:v 4M ${dir}${dirOut}/HRM_${vid}_${cam}10.MP4
-```
 TRex pipeline
 ```
 #!/bin/bash
