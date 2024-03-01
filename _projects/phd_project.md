@@ -39,7 +39,7 @@ For the following data cleaning and annotation, I developed an extensive routine
         {% include figure.liquid path="assets/img/allTracksT1.png" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://youtu.be/egDTFIUHBgs?si=Fw6ms9JmLctgJiy_" class="img-fluid rounded z-depth-1" %}
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=DagoqMy98GHEeWVI&amp;list=PLhic1Oo3tm8AdnKNJo9LaKkR5mUw2ZwzA" title="YouTube video player tutorials" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
 <div class="caption">
