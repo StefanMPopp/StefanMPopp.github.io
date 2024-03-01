@@ -1,9 +1,9 @@
 ---
 layout: page
-title: current - more ant search studies
+title: current - more on ant search
 description: following up from my PhD, I am currently conducting 2 more studies; an empirical one on ant search on rugose surfaces and a modeling study on the efficiency of the meanders we described in my first PhD chapter.
 img: assets/img/3.jpg
-importance: 2
+importance: 1
 category: research
 giscus_comments: false
 ---
@@ -22,19 +22,6 @@ In this project, I aim to recreate the meandering in a simulation using a plausi
 </div>
 
 The meandering algorithm is based on a recursive function: the agent has a current goal direction, from which it turns away with a constant angular velocity until it is facing a threshold angle away from the goal direction, at which point the agent switches the turn direction. The current goal direction meanders itself around a larger-scale goal direction. The below image of the meander simulation is created with 3 levels of meandering.
-
-<details> 
-  <summary>pseudocode </summary>
-
-    {% raw %}
-
-    ```
-    pseudocode
-    ```
-    
-    {% endraw %}
-
-</details>
 
 
 <div class="row">
@@ -79,4 +66,4 @@ We 3D-printed panels with sinusoidal waves of different frequency which tile the
     matlab thing; pic of plates; video
 </div>
 
-This study will be important for the translation of results from lab studies into ecological contexts.
+This study will be important for the translation of lab results into ecological contexts.
