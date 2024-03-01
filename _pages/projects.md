@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: I have mainly been working on the behavior of ants.
 nav: true
-nav_order: 3
+nav_order: 1
 display_categories: [research, fun]
 horizontal: false
 ---
