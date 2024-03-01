@@ -1,18 +1,55 @@
 ---
 layout: page
-title: current - more ant search studies
-description: following up from my PhD, I am currently conducting 2 more studies: an empirical one on ant search on rugose surfaces and a modeling study on the efficiency of the meanders we described in my first PhD chapter.
+title: current\: more ant search studies
+description: following up from my PhD, I am currently conducting 2 more studies\: an empirical one on ant search on rugose surfaces and a modeling study on the efficiency of the meanders we described in my first PhD chapter.
 img: assets/img/3.jpg
 importance: 2
 category: research
 giscus_comments: true
 ---
 
-ToDo: something about 3D and meander efficiency (reverse order)
+ToDo:
+<h4>efficiency of meandering</h4>
+In my [PhD work](/projects/1_project/), I described a novel regular fractal-like meandering pattern in searching ants. I showed that it is theoretically more efficient than pure Correlated Random Walks with similar properties, since the ant tracks cross themselves less.
+In this project, I aim to recreate the meandering in a simulation using a plausible mechanism and compare its efficiency for finding targets in noisy environments against other propsed search strategies.
 
-Meander efficiency: fractal image (swap with PhD project page); aim: is this a more efficient strategy than other contenders?; short description of algorithm (pseudocode), image of simulation; end goal: in robot swarms
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/mndr_graph.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Meandering ant track. The coordinates are in mm.
+</div>
 
-3D: so far, only in flat arena searching, or on rough surface in runways; hypotheses; pic of plates; video
+short description of algorithm (pseudocode), image of simulations; end goal: in robot swarms
+
+{% raw %}
+
+```
+pseudocode
+```
+
+{% endraw %}
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mndr_graph.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Simulated tracks: <strong>Left:</strong> meandering <strong>Middle:</strong> Correlated Random Walk <strong>Right:</strong> Spiral
+</div>
+
+<h4>search on 3D surfaces</h4>
+so far, only in flat arena searching, or on rough surface in runways; hypotheses; pic of plates; video
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
