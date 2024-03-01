@@ -24,40 +24,30 @@ In this project, I aim to recreate the meandering in a simulation using a plausi
 The meandering algorithm is based on a recursive function: the agent has a current goal direction, from which it turns away with a constant angular velocity until it is facing a threshold angle away from the goal direction, at which point the agent switches the turn direction. The current goal direction meanders itself around a larger-scale goal direction. The below image of the meander simulation is created with 3 levels of meandering.
 
 <details> 
-  <summary>Q1: What is the best Language in the World? </summary>
+  <summary>pseudocode </summary>
 
-{% raw %}
-
-```
-pseudocode
-```
-
-</details>
-
-{% endraw %}
-
-<details> 
-  <summary>Q1: What is the best Language in the World? </summary>
-
-    ---
+    {% raw %}
+    
     pseudocode
-    ---
+    
+    {% endraw %}
 
 </details>
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/p07.png" title="sim meander" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/lw.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/p14.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Simulated tracks: <strong>Left:</strong> meandering <strong>Middle:</strong> Correlated Random Walk <strong>Right:</strong> Spiral
+    Simulated tracks. <strong>Left:</strong> meandering, <strong>Middle:</strong> Levy Walk, <strong>Right:</strong> Spiral
 </div>
 
 I will test the target finding efficiency of these strategies in different target environments and with different levels of 'noise' in the movement.
@@ -66,15 +56,18 @@ The ultimate goal of this project is, to implement a version of the meandering s
 
 
 <h4>search on 3D surfaces</h4>
-so far, only in flat arena searching, or on rough surface in runways; hypotheses; pic of plates; video
+So far, the detailed search behavior of ants has only been investigated either in arenas in the lab, or on completely flat desert surfaces. Most ants in the wild are walking on highly 3-dimensional surfaces. How do ants adapt their search patterns to rugose surfaces?
+hypotheses
+I 
+pic of plates; video
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="panel" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="video" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
