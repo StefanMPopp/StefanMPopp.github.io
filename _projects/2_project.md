@@ -8,7 +8,6 @@ category: research
 giscus_comments: true
 ---
 
-ToDo:
 <h4>efficiency of meandering</h4>
 In my [PhD work](/projects/1_project/), I described a novel regular fractal-like meandering pattern in searching ants. I showed that it is theoretically more efficient than pure Correlated Random Walks with similar properties, since the ant tracks cross themselves less.
 In this project, I aim to recreate the meandering in a simulation using a plausible mechanism and compare its efficiency for finding targets in noisy environments against other propsed search strategies.
@@ -35,7 +34,7 @@ pseudocode
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mndr_graph.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/p07.png" title="sim meander" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
