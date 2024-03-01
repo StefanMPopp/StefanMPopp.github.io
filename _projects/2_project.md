@@ -1,7 +1,7 @@
 ---
 layout: page
-title: current\: more ant search studies
-description: following up from my PhD, I am currently conducting 2 more studies\: an empirical one on ant search on rugose surfaces and a modeling study on the efficiency of the meanders we described in my first PhD chapter.
+title: curren - more ant search studies
+description: following up from my PhD, I am currently conducting 2 more studies; an empirical one on ant search on rugose surfaces and a modeling study on the efficiency of the meanders we described in my first PhD chapter.
 img: assets/img/3.jpg
 importance: 2
 category: research
@@ -22,7 +22,7 @@ In this project, I aim to recreate the meandering in a simulation using a plausi
     Meandering ant track. The coordinates are in mm.
 </div>
 
-short description of algorithm (pseudocode), image of simulations; end goal: in robot swarms
+The meandering algorithm is based on a recursive function: the agent has a current goal direction, from which it turns away with a constant angular velocity until it is facing a threshold angle away from the goal direction, at which point the agent switches the turn direction. The current goal direction meanders itself around a larger-scale goal direction. The below image of the meander simulation is created with 3 levels of meandering.
 
 {% raw %}
 
@@ -47,6 +47,11 @@ pseudocode
 <div class="caption">
     Simulated tracks: <strong>Left:</strong> meandering <strong>Middle:</strong> Correlated Random Walk <strong>Right:</strong> Spiral
 </div>
+
+I will test the target finding efficiency of these strategies in different target environments and with different levels of 'noise' in the movement.
+
+The ultimate goal of this project is, to implement a version of the meandering strategy in search robot swarms, depending on the results of this simulation.
+
 
 <h4>search on 3D surfaces</h4>
 so far, only in flat arena searching, or on rough surface in runways; hypotheses; pic of plates; video
