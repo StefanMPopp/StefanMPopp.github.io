@@ -1,7 +1,7 @@
 ---
 layout: page
 title: resampling
-description: method comparison\: showing that the choice of resampling (turn ID) method can have large effects on the results of movement ecological studies
+description: method comparison - showing that the choice of resampling (turn ID) method can have large effects on the results of movement ecological studies
 img: assets/img/1.jpg
 importance: 3
 category: research
