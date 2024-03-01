@@ -1,4 +1,4 @@
-link between the---
+---
 layout: page
 title: current - more ant search studies
 description: following up from my PhD, I am currently conducting 2 more studies; an empirical one on ant search on rugose surfaces and a modeling study on the efficiency of the meanders we described in my first PhD chapter.
@@ -9,7 +9,7 @@ giscus_comments: false
 ---
 
 <h4>efficiency of meandering</h4>
-In my [PhD work](/projects/1_project/), I described a novel regular fractal-like meandering pattern in searching ants. I showed that it is theoretically more efficient than pure Correlated Random Walks with similar properties, since the ant tracks cross themselves less.
+In my [PhD work](/projects/phd_project/), I described a novel regular fractal-like meandering pattern in searching ants. I showed that it is theoretically more efficient than pure Correlated Random Walks with similar properties, since the ant tracks cross themselves less.
 In this project, I aim to recreate the meandering in a simulation using a plausible mechanism and compare its efficiency for finding targets in noisy environments against other propsed search strategies.
 
 <div class="row">
