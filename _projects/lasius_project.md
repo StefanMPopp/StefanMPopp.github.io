@@ -12,7 +12,7 @@ For my Bachelor's thesis, I worked with [Dr. Tomer Czaczkes](https://www.animal-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lasiusPaint.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/lasiusPaint.webp" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/lasius_prev.webp" title="setup" class="img-fluid rounded z-depth-1" %}
