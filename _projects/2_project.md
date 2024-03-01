@@ -1,4 +1,4 @@
----
+link between the---
 layout: page
 title: current - more ant search studies
 description: following up from my PhD, I am currently conducting 2 more studies; an empirical one on ant search on rugose surfaces and a modeling study on the efficiency of the meanders we described in my first PhD chapter.
@@ -27,8 +27,10 @@ The meandering algorithm is based on a recursive function: the agent has a curre
   <summary>pseudocode </summary>
 
     {% raw %}
-    
+
+    ```
     pseudocode
+    ```
     
     {% endraw %}
 
@@ -55,15 +57,12 @@ I will test the target finding efficiency of these strategies in different targe
 The ultimate goal of this project is, to implement a version of the meandering strategy in search robot swarms, depending on the results of this simulation.
 
 
+
 <h4>search on 3D surfaces</h4>
 So far, the detailed search behavior of ants has only been investigated either in arenas in the lab, or on completely flat desert surfaces. Most ants in the wild are walking on highly 3-dimensional surfaces. How do ants adapt their search patterns to rugose surfaces? I am collaborating with the Dornhaus lab to answer this question
 Ants could conserve more the walk tortuosity from a bird's-eye view (ignoring the structure in the z-axis), or on the surface from an ant's-eye view (ignoring the fact that more surface is now packed in a smaller bird's-eye view area). Other alternatives are possible.
 
 We 3D-printed panels with sinusoidal waves of different frequency which tile the floor of a search arena. We will again record and track ants as they are searching for (nonexistent) resources.
-
-matlab thing; pic of plates; video
-
-This study will be important for the translation of results from lab studies into ecological contexts.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -77,30 +76,7 @@ This study will be important for the translation of results from lab studies int
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    matlab thing; pic of plates; video
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
+This study will be important for the translation of results from lab studies into ecological contexts.
