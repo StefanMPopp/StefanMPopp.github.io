@@ -3,7 +3,7 @@ layout: default
 permalink: /blog/
 title: outreach
 nav: true
-nav_order: 1
+nav_order: 4
 pagination:
   enabled: true
   collection: posts
@@ -24,5 +24,5 @@ I am still in the process of publishing the videos from the last few years of my
 
 <h3>In-person events</h3>
 I loved participating in outreach events, where members of the general public (mostly school students) could learn about the work I was doing, science in general, or just about the wonderful world of social insects.
-
+\
 Picture incoming!
