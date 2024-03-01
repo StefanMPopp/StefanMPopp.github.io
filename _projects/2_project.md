@@ -1,6 +1,6 @@
 ---
 layout: page
-title: current: more ant search studies
+title: current - more ant search studies
 description: following up from my PhD, I am currently conducting 2 more studies: an empirical one on ant search on rugose surfaces and a modeling study on the efficiency of the meanders we described in my first PhD chapter.
 img: assets/img/3.jpg
 importance: 2
