@@ -97,3 +97,23 @@ To be replaced once published: {% cite popp_ant_2023 %}
 <div class="caption">
     <strong>Left:</strong> Heatmap of all ant points on the 3rd day, with an illustration of interindividual variation in path straightness <strong>Right:</strong> Heatmap with illustration of the locations of adhesive tape several layers below the topmost paper.
 </div>
+
+<h4>trying to find patterns and recreate tracks using machine learning</h4>
+As a side project, I collaborated with the [Kobourov lab](https://profiles.arizona.edu/person/kobourov) and [Alon Efrat](https://www2.cs.arizona.edu/~alon/) to identify and characterize patterns in the movement patterns, like the meanders. We applied dimensionality reduction and clustering,identifying common motifs of the meandering, and explored the creation of tracks via a specialized General Adversarial Network and an ARIMA model
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/eigenantLong.png" title="eigenant" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/movAv.png" title="moving average" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/arima.png" title="arima" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    <strong>Left:</strong> Trajectory created by drawing randomly from the set of identified curve eigenvectors, <strong>Middle:</strong> Empirical ant track with moving average, which could be used to separate the patterns on different scales <strong>Right:</strong> Empirical track segment and ARIMA forecast of it.
+</div>
+
+Code can be found [here](https://github.com/ryngray/model_ant_trajectories).
