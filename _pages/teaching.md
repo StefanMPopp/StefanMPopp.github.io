@@ -22,6 +22,5 @@ Participation in Faculty Learning Community meetings  FA2018
 Remodeling and co-leading ECOL 450 (online)				    FA2020
 
 <h3>Mentoring</h3>
-20 Undergraduate research assistants					        SP2018 - SP2023
-1 Highschool student (KEYS)							              SU2022
+I mentored 20 Undergraduate research assistants and 1 Highschool student (KEYS).
 These students were instrumental in completing my PhD project and gained crucial research experience, technical skills, and knowledge about the process of science.
