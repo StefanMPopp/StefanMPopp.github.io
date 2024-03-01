@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /blog/
+permalink: /outreach/
 title: outreach
 nav: true
 nav_order: 4
