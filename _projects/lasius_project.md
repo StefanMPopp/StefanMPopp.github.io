@@ -3,7 +3,7 @@ layout: page
 title: ant physical communication
 description: knowledgeable ants do not transfer information about the direction of a food source to naive, outgoing ants
 img: assets/img/antennation.webp
-importance: 3
+importance: 4
 category: research
 related_publications: true
 ---
