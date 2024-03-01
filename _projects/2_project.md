@@ -56,11 +56,14 @@ The ultimate goal of this project is, to implement a version of the meandering s
 
 
 <h4>search on 3D surfaces</h4>
-So far, the detailed search behavior of ants has only been investigated either in arenas in the lab, or on completely flat desert surfaces. Most ants in the wild are walking on highly 3-dimensional surfaces. How do ants adapt their search patterns to rugose surfaces?
-hypotheses
-I 
-pic of plates; video
+So far, the detailed search behavior of ants has only been investigated either in arenas in the lab, or on completely flat desert surfaces. Most ants in the wild are walking on highly 3-dimensional surfaces. How do ants adapt their search patterns to rugose surfaces? I am collaborating with the Dornhaus lab to answer this question
+Ants could conserve more the walk tortuosity from a bird's-eye view (ignoring the structure in the z-axis), or on the surface from an ant's-eye view (ignoring the fact that more surface is now packed in a smaller bird's-eye view area). Other alternatives are possible.
 
+We 3D-printed panels with sinusoidal waves of different frequency which tile the floor of a search arena. We will again record and track ants as they are searching for (nonexistent) resources.
+
+matlab thing; pic of plates; video
+
+This study will be important for the translation of results from lab studies into ecological contexts.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
