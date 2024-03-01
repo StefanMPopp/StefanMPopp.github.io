@@ -9,6 +9,7 @@ nav_order: 6
 
 <h3>Teaching assistantships</h3>
 ECOL 250: How science works and what it says				SP2021
+
 ECOL 170C1: Marine Biology, gen. ed., online				SP2021, ‘22, ‘23
 ECOL 170C3: [Animal Sexual Behavior](https://youtube.com/playlist?list=PLhic1Oo3tm8ALAdq0fpN_4dopbSTO2qfZ&si=6ELxj5VSETzT2rz8)						      SU2020, ‘21, SP2022
 ECOL 450: Marine Discovery							            FA2019, ‘20*, ‘21*, ‘22
