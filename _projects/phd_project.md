@@ -3,12 +3,12 @@ layout: page
 title: ant search
 description: PhD thesis - Ant search strategies for targets of unkown locations
 img: assets/img/publication_preview/mndr_graph.jpg
-importance: 1
+importance: 2
 category: research
 related_publications: true
 ---
 
-These are the first 3 chapters of my PhD thesis.
+These are the first 3 chapters of my PhD thesis. I continue to work on the topic of ant search in 2 other [projects](/projects/curr_project/).
 
 
 <h3>methods</h3>
