@@ -1,11 +1,11 @@
 ---
 layout: page
-title: curren - more ant search studies
+title: current - more ant search studies
 description: following up from my PhD, I am currently conducting 2 more studies; an empirical one on ant search on rugose surfaces and a modeling study on the efficiency of the meanders we described in my first PhD chapter.
 img: assets/img/3.jpg
 importance: 2
 category: research
-giscus_comments: true
+giscus_comments: false
 ---
 
 <h4>efficiency of meandering</h4>
@@ -23,14 +23,27 @@ In this project, I aim to recreate the meandering in a simulation using a plausi
 
 The meandering algorithm is based on a recursive function: the agent has a current goal direction, from which it turns away with a constant angular velocity until it is facing a threshold angle away from the goal direction, at which point the agent switches the turn direction. The current goal direction meanders itself around a larger-scale goal direction. The below image of the meander simulation is created with 3 levels of meandering.
 
+<details> 
+  <summary>Q1: What is the best Language in the World? </summary>
+
 {% raw %}
 
 ```
 pseudocode
 ```
 
+</details>
+
 {% endraw %}
 
+<details> 
+  <summary>Q1: What is the best Language in the World? </summary>
+
+    ---
+    pseudocode
+    ---
+
+</details>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -55,14 +68,6 @@ The ultimate goal of this project is, to implement a version of the meandering s
 <h4>search on 3D surfaces</h4>
 so far, only in flat arena searching, or on rough surface in runways; hypotheses; pic of plates; video
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -103,22 +108,3 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
