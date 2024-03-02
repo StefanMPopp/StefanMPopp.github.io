@@ -4,7 +4,7 @@ permalink: /talks/
 title: talks
 description: Recordings of some of my talks at conferences and seminars
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 <h3>Extensive (but early) meandering talk</h3>
