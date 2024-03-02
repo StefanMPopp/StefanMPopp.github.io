@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /talks/
-title: talks & presentations
+title: talks
 description: Recordings of some of my talks at conferences and seminars
 nav: true
 nav_order: 7
