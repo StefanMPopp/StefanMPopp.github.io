@@ -2,8 +2,8 @@
 layout: default
 permalink: /outreach/
 title: outreach
-nav: true
-nav_order: 4
+nav: false
+nav_order: 3
 pagination:
   enabled: true
   collection: posts
@@ -24,5 +24,12 @@ I am still in the process of publishing the videos from the last few years of my
 
 <h3>In-person events</h3>
 I loved participating in outreach events, where members of the general public (mostly school students) could learn about the work I was doing, science in general, or just about the wonderful world of social insects.
-\
-Picture incoming!
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/insFest.jpg" title="insect festival" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Me at a booth at the Arizona Insect Festival 2022.
+</div>
