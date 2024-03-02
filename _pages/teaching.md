@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: All courses I tought throughout my PhD.
-nav: true
+nav: false
 nav_order: 3
 ---
 
