@@ -2,7 +2,7 @@
 layout: page
 permalink: /inmedia/
 title: in the media
-description: All courses I tought throughout my PhD.
+description: Where I or my research made an appearance in public media.
 nav: false
 nav_order: 3
 ---
