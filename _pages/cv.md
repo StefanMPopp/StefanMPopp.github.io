@@ -10,5 +10,5 @@ toc:
   sidebar: left
 ---
 
-[Link to professional CV](https://docs.google.com/document/d/1mLc_LTbdiavxbcDk8OBFis_BdNBkksBBOhqGDUqAMaA/edit)
+[Link to professional CV](https://docs.google.com/document/d/1mLc_LTbdiavxbcDk8OBFis_BdNBkksBBOhqGDUqAMaA/edit?usp=sharing)
 [Link to academic CV](https://docs.google.com/document/d/17J5HKXPDHA9Ep0Lq-a6rYiEpf_NNykr-7bTZSg9PXnQ/edit)
