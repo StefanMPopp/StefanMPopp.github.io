@@ -43,7 +43,7 @@ For the following data cleaning and annotation, I developed an extensive routine
     </div>
 </div>
 <div class="caption">
-    <strong>Left:</strong>Ant paths from one colony evolving over the 5 h of one trial. <strong>Right:</strong>Tutorial for the joining of erroneously broken up tracks.
+    <strong>Left:</strong> Ant paths from one colony evolving over the 5 h of one trial. <strong>Right:</strong> Tutorial for the joining of erroneously broken up tracks.
 </div>
 
 <h3>results</h3>
