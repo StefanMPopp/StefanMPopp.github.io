@@ -16,13 +16,13 @@ I let 5 whole colonies of ants search freely in a custom-built large arena which
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/temno.png" title="Ant" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ant_search/temno.png" title="Ant" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Nest.jpg" title="artificial nest" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ant_search/Nest.jpg" title="artificial nest" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/setup_below.jpg" title="arena" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ant_search/setup_below.jpg" title="arena" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -36,7 +36,7 @@ For the following data cleaning and annotation, I developed an extensive routine
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/allTracksT1.png" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include figure.liquid path="assets/ant_search/allTracksT1.png" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=DagoqMy98GHEeWVI&amp;list=PLhic1Oo3tm8AdnKNJo9LaKkR5mUw2ZwzA" title="YouTube video player tutorials" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -53,10 +53,10 @@ Ants do not merely walk purely randomly, as was previously assumed, but rather m
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/tr_extreme_F1small.bmp" title="sharkSmall" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ant_search/tr_extreme_F1small.bmp" title="sharkSmall" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/trShrkfin.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ant_search/trShrkfin.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -69,13 +69,13 @@ The study species often relocates their nest, requiring the foragers to get fami
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/f1_heat.png" title="sharkSmall" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ant_search/f1_heat.png" title="sharkSmall" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/f2_disp.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ant_search/f2_disp.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/f4b_tracks.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ant_search/f4b_tracks.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -88,10 +88,10 @@ To be replaced once published: {% cite popp_ant_2023 %}
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/fpHeatVari.png" title="heatmap with variation tracks" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ant_search/fpHeatVari.png" title="heatmap with variation tracks" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/fpHeatTape.png" title="heatmap with tape" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ant_search/fpHeatTape.png" title="heatmap with tape" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -103,13 +103,13 @@ As a side project, I collaborated with the [Kobourov lab](https://profiles.arizo
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/eigenantLong.png" title="eigenant" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ant_search/eigenantLong.png" title="eigenant" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/movAv.png" title="moving average" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ant_search/movAv.png" title="moving average" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/arima.png" title="arima" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ant_search/arima.png" title="arima" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
