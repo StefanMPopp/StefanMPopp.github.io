@@ -1,6 +1,6 @@
 markdown---
 layout: page
-title: ant physical communi-<br/>cation</br>
+title: ant physical communic.
 description: knowledgeable ants do not transfer information about the direction of a food source to naive, outgoing ants
 img: assets/img/antennation.webp
 importance: 4
