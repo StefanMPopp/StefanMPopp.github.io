@@ -15,11 +15,9 @@ We analyzed simulated tracks with known parameters as well as some empirical tra
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/resamp/fig1.png" title="Methods Overview" class="img-fluid rounded z-depth-1" %}
     </div>
-    
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/resamp/tracks_snt.png" title="Step & turn resampled tracks" class="img-fluid rounded z-depth-1" %}
     </div>
-
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/resamp/tracks_curvy.png" title="Curvy resampled tracks" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -39,6 +37,6 @@ We find that most results differ from the ground truth by more than 50%, and var
     </div>
 </div>
 <div class="caption">
-    <strong>Left:</strong> Large variation in characteristics of resampled tracks. <strong>Right:</strong> 
+    <strong>Left:</strong> Large variation in characteristics of resampled tracks. <strong>Right:</strong> The choice of threshold matters for results.
 </div>
 
