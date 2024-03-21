@@ -22,7 +22,7 @@ I let 5 whole colonies of ants search freely in a custom-built large arena which
         {% include figure.liquid loading="eager" path="assets/ant_search/Nest.jpg" title="artificial nest" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/ant_search/setup_below.jpg" title="arena" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ant_search/Setup_below.jpg" title="arena" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -69,13 +69,13 @@ The study species often relocates their nest, requiring the foragers to get fami
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/ant_search/f1_heat.png" title="sharkSmall" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ant_search/f1_heat.png" title="Heatmap" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/ant_search/f2_disp.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ant_search/f2_disp.png" title="displacements" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/ant_search/f4b_tracks.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ant_search/f4b_tracks.png" title="first and last tracks" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
