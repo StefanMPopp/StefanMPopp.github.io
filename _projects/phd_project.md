@@ -53,7 +53,7 @@ Ants do not merely walk purely randomly, as was previously assumed, but rather m
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/ant_search/tr_extreme_F1small.bmp" title="sharkSmall" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ant_search/tr_extreme_F1.png" title="sharkSmall" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/ant_search/trShrkfin.png" title="close up meanders" class="img-fluid rounded z-depth-1" %}
