@@ -10,6 +10,7 @@ related_publications: true
 
 These are the first 3 chapters of my PhD thesis. I continue to work on the topic of ant search in 2 other [projects](/projects/curr_project/).
 
+How do you search for a small item in a huge space you cannot oversee? Previously, the question of how ants search for unknown resources had barely been addressed in the scientific literature. I created to date the largest arena for tracking ants to describe their search patterns and answer questions about the influences of experience and communication.
 
 <h3>methods</h3>
 I let 5 whole colonies of ants search freely in a custom-built large arena which I recorded with 4 cameras to track the ants' movements. Since I was interested in their search behavior for novel targets, I never added any resources in the arena.
