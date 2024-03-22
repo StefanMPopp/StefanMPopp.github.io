@@ -25,7 +25,7 @@
   "work": [
     {
       "name": "Ecology & Evolutionary Biology, University of Arizona",
-      "position": "Doctoral student",
+      "position": "Research Scientist",
       "url": "https://eeb.arizona.edu",
       "startDate": "2017-08-18",
       "endDate": "2023-08-19",
@@ -34,6 +34,17 @@
     }
   ],
   "education": [
+    {
+      "institution": "University of Arizona",
+      "location": "Tucson, AZ",
+      "url": "https://eeb.arizona.edu",
+      "area": "Ecology & Evolutionary Biology",
+      "studyType": "PhD",
+      "startDate": "2017-08-18",
+      "endDate": "2023-08-19",
+      "score": "3.7",
+      "courses": ["Ant search strategies for targets of unkown location"]
+    },
     {
       "institution": "University of Wurzburg",
       "location": "Wurzburg, Germany",
@@ -119,7 +130,7 @@
         "Analysis",
         "Visualization",
         "Hypothesis testing",
-        "Statistical models",
+        "Statistical models"
       ]
     },
     {
@@ -178,7 +189,7 @@
         "Comprehensible Input",
         "Linguistics"
       ]
-    }
+    },
     {
       "name": "Bikepacking",
       "icon": "fa-solid fa-bike",
