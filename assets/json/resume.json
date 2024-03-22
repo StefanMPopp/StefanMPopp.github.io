@@ -33,17 +33,6 @@
       "highlights": ["Time series analysis"]
     }
   ],
-#  "volunteer": [
-#    {
-#      "organization": "Lightning In a Bottle",
-#      "position": "Green Team",
-#      "url": "https://libfestival.com",
-#      "startDate": "2023-04-01",
-#      "endDate": "2015-07-01",
-#      "summary": "Picked up and managed trash at a music festival.",
-#      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-#    }
-#  ],
   "education": [
     {
       "institution": "University of Wurzburg",
@@ -84,22 +73,15 @@
       "summary": "The Galileo Circle awards scholarships to undergraduate and graduate students who demonstrate exceptional potential in the physical, mathematical, environmental, cognitive, or life sciences. $1000.'"
     }
   ],
-#  "certificates": [
-#    {
-#      "name": "Machine Learning",
-#      "date": "2018-01-01",
-#      "issuer": "Stanford University",
-#      "url": "https://example.com",
-#      "icon": "fa-solid fa-location-dot"
-#    },
-#    {
-#      "name": "Quantum Computing",
-#      "date": "2018-01-01",
-#      "issuer": "Stanford University",
-#      "url": "https://example.com",
-#      "icon": "fa-solid fa-tag"
-#    }
-#  ],
+  "certificates": [
+    {
+      "name": "None",
+      "date": "2011-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-location-dot"
+    }
+  ],
   "publications": [
     {
       "name": "Zur Elektrody/namik bewegter Körper",
@@ -153,6 +135,11 @@
       "language": "French",
       "fluency": "Beginner/Intermediate",
       "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Beginner",
+      "icon": ""
     }
   ],
   "interests": [
@@ -186,6 +173,17 @@
       "startDate": "2024-03-25",
       "endDate": "2024-04-05",
       "url": "https://github.io/StefanMPopp/resql"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Lightning In a Bottle",
+      "position": "Green Team",
+      "url": "https://libfestival.com",
+      "startDate": "2023-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Picked up and managed trash at a music festival.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ]
 }
