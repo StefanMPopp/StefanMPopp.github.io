@@ -73,36 +73,41 @@
       "summary": "The Galileo Circle awards scholarships to undergraduate and graduate students who demonstrate exceptional potential in the physical, mathematical, environmental, cognitive, or life sciences. $1000.'"
     }
   ],
-  "certificates": [
-    {
-      "name": "None",
-      "date": "2011-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    }
-  ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "No evidence for tactile communication of direction in foraging Lasius ants",
+      "publisher": "Insectes Sociaux",
+      "releaseDate": "2018-09-30",
+      "url": "https://link.springer.com/article/10.1007/s00040-017-0583-6",
+      "summary": "A returning ant doesn't tell the outgoing one whether to turn left or right at a bifurcation"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Alignment with neighbors enables escape from dead ends in flocking models",
+      "publisher": "J Royal Soc Interf",
+      "releaseDate": "2022-03-18",
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rsif.2022.0356",
+      "summary": "Agents swarming according to a classical model can escape a dead-end obstacle in the way to their goal without specialized behaviors if they are aligned enough."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Ants combine systematic meandering and correlated random walks when searching for unknown resources",
+      "publisher": "iScience",
+      "releaseDate": "2023-01-27",
+      "url": "https://doi.org/10.1016/j.isci.2022.105916",
+      "summary": "Ants turn somewhat regularly left & right while maintaining some stochasticity. This helps them cover an area efficiently and probably robustly."
+    },
+    {
+      "name": "Ant colonies explore novel environments with more slower, curvier walks, particularly near the nest",
+      "publisher": "Insectes Sociaux",
+      "releaseDate": "2023-10-27",
+      "url": "https://link.springer.com/article/10.1007/s00040-023-00938-z",
+      "summary": "On the 1st day in a new environment, there are additional ant trips done near the nest (<1m) compared to the 2nd and 3rd days."
+    },
+    {
+      "name": "Searching ants walk slower and less straight on chemical footprints, but indirect effects are large",
+      "publisher": "Insectes Sociaux",
+      "releaseDate": "In print",
+      "url": "https://example.com",
+      "summary": "Ants show large variation of where and how they explore. They are also very sensitive to chemical cues on the surface. These 2 things are probably more important than any pheromone communication for coordination."
     }
   ],
   "skills": [
@@ -115,8 +120,30 @@
         "Visualization",
         "Hypothesis testing",
         "Statistical models",
+      ]
+    },
+    {
+      "name": "Technical",
+      "level": "Master",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "MATLAB",
         "Python",
-        "SQL"
+        "R",
+        "SQL",
+        "bash",
+        "Excel"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "Master",
+      "icon": "fa-solid fa-video",
+      "keywords": [
+        "Video Editing (Premiere Pro)",
+        "ffmpeg",
+        "Behavioral experiment",
+        "Object tracking"
       ]
     }
   ],
@@ -124,22 +151,22 @@
     {
       "language": "German",
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "fa-solid beer-mug"
     },
     {
       "language": "English",
       "fluency": "Fluent",
-      "icon": ""
+      "icon": "fa-solid burger-cheese"
     },
     {
       "language": "French",
       "fluency": "Beginner/Intermediate",
-      "icon": ""
+      "icon": "fa-solid baguette"
     },
     {
       "language": "Spanish",
       "fluency": "Beginner",
-      "icon": ""
+      "icon": "fa-solid taco"
     }
   ],
   "interests": [
@@ -150,6 +177,15 @@
         "DE, EN, FR, ES",
         "Comprehensible Input",
         "Linguistics"
+      ]
+    }
+    {
+      "name": "Bikepacking",
+      "icon": "fa-solid fa-bike",
+      "keywords": [
+        "2015: Wurzburg-Brombachsee-Wurzburg, 3d",
+        "2015: Wurzburg-Avignon, 14d",
+        "2023: Avignon-Toulouse, 5d"
       ]
     }
   ],
@@ -180,10 +216,19 @@
       "organization": "Lightning In a Bottle",
       "position": "Green Team",
       "url": "https://libfestival.com",
-      "startDate": "2023-04-01",
-      "endDate": "2015-07-01",
+      "startDate": "2022-05-01",
+      "endDate": "2023-05-01",
       "summary": "Picked up and managed trash at a music festival.",
       "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "None",
+      "date": "2011-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-location-dot"
     }
   ]
 }
