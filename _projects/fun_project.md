@@ -29,7 +29,7 @@ I enjoy learning (about) languages. Currently, I am learning (or 'acquiring') Fr
 One of my hobbies became the growing of gourmet mushrooms at home. It doesn't have to be difficult and is highly rewarding.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/12.jpg" title="mushroom" class="img-fluid rounded z-depth-3" %}
+        {% include figure.liquid loading="eager" path="assets/img/P_ostreatus.jpg" title="mushroom" class="img-fluid rounded z-depth-3" %}
 </div>
 <div class="caption">
     Oyster mushrooms (<em>Pleurotus ostreatus</em>) growing from a bag of straw and sawdust.
