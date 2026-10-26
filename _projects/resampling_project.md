@@ -1,12 +1,12 @@
 ---
 layout: page
-title: resampling
-description: method comparison - showing that the choice of resampling (turn ID) method can have large effects on the results of movement ecological studies
+title: movement analysis comparison
+description: showing that the choice of resampling (turn ID) method can have large effects on the results of movement ecological studies
 img: assets/resamp/fig1.png
 importance: 3
 category: research
 ---
-This manuscript was my 4th PhD thesis chapter and is about to be submitted (as of Mar 2024).
+This manuscript was my 4th PhD thesis chapter and is on [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.04.13.647400v1).
 
 When moving, animals may change their direction due to internal or external causes, and these ‘turns’ are of interest in many research areas in animal movement and decision-making. However, even between such ‘deliberate’ turns, measured animal tracks are not generally straight due to navigational, environmental, or tracking ‘noise’, making the distinction between a ‘true’ turn and local noise non-trivial. To identify those biologically significant turns, studies of animal movement use turn identification methods, often based on resampling from original tracks, i.e. reconstituting what is considered the relevant movement track of the animal from a subset of the original measured location points. The accuracy and consistency of such methods have rarely been validated against ground truth trajectories with known 'true' turns and noise.
 We analyzed simulated tracks with known parameters as well as some empirical tracks and identify turns with 8 different frequently used resampling methods. We compare the known properties of the paths (e.g. mean turn angle, step length) with the resampled trajectories.

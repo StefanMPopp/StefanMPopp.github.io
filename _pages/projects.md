@@ -2,10 +2,12 @@
 layout: page
 title: projects
 permalink: /projects/
-description: I have mainly been working on the behavior of ants.
+description: Past and current research projects
 nav: true
 nav_order: 1
-display_categories: [research, fun]
+display_categories:
+  - research
+  - fun
 horizontal: false
 ---
 

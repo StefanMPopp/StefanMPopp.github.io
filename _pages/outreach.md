@@ -23,7 +23,7 @@ I am still in the process of publishing the videos from the last few years of my
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=cIDtOqHvwkRwWIrX&amp;list=PLhic1Oo3tm8CtWMa6DnNGbLIX_pNOBvQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <h3>In-person events</h3>
-I loved participating in outreach events, where members of the general public (mostly school students) could learn about the work I was doing, science in general, or just about the wonderful world of social insects.
+I love participating in outreach events, where members of the general public (mostly school students) can learn about the work I was doing, science in general, or just about the wonderful world of social insects.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">

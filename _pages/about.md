@@ -2,28 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: Recent PhD graduate of the <a href="https://www.arizona.edu/">University of Arizona</a>, <a href="https://www.eeb.arizona.edu/">EEB</a>, working with <a href="https://www.annadornhaus.net/">Dr. Anna Dornhaus</a>.
-
+subtitle: Staff postdoc with Prof. Tomer Czaczkes (<a href="https://www.fu-berlin.de/acelab/">ACElab</a>) at the <a href="https://www.fu-berlin.de/">FU Berlin</a>.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>office number</p>
-    <p>123 address street</p>
-    <p>Würzburg, BY 97237</p>
-
-news: true # includes a list of news items
-latest_posts: false # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+  image_circular: false
+  more_info: |
+    <p>office number</p> <p>123 address street</p> <p>Würzburg, BY 97237</p>
+news: true
+latest_posts: false
+selected_papers: true
+social: true
 ---
+I am interested in
+1. What ants (and other critters) can learn, and how internal and external factors influence that. E.g.: [Learning projects](/projects/learning_project). I am mainly using Y-mazes in the lab for that.
+2. How the specific animal and lab conditions and experimental setups influence the outcome of learning experiments. E.g.: [Learning directional cues in the light vs dark](/projects/learning_projects) or [housing conditions](projects/boredom_project)
+3. How do insects explore space to find resources? During my [PhD](/projects/search_project) I investigated the search strategies of ants and I plan on continuing that line of research.
+4. Automated video tracking of animals. During my previous projects I gained experience with state of the art tracking methods with their potential and pitfalls. I am so interested in this that I also teach a [BSc course](/teaching/tracking) on it.
+5. The rules that make animals behave the way they do. E.g.: [Modeling meandering movement](/projects/search_project) or [Collective movement](/projects/swarm_project)
+6. The biomechanics of behavior and neuroethology. I would love to collaborate with someone more knowledgeable in the 'mechanics' and 'neuro' aspects of that!
+7. Isopods. I recently found a passion for them, including the amazing vivariums others build as a hobby. Some frequently traded and kept isopod species have not even been described yet.
 
-As a recent PhD graduate in animal behavior, I have gained extensive experience in data analysis, manipulation, and visualization, using various software tools and languages, such as MATLAB, Python, R, and bash. I have applied my skills to study the complex and fascinating patterns of ant movement and communication, using advanced video tracking and statistical analysis techniques.
-
-I am passionate about finding answers from data and solving technical problems, as well as collaborating with experts from different fields. I have initiated and contributed to several interdisciplinary projects with computer scientists and mathematicians, resulting in multiple publications and presentations. I am also a proficient and quick writer, with a keen eye for detail and quality. I am eager to work on projects and challenges which allow me to have a tangible real-world impact.
-
-I am currently working on an agent-based model helping to explain how ants searching for resources create regular meanders on multiple scales, and how much more efficient this search strategy is compared to simpler alternatives.
-
-Throughout my undergrad and master's studies I have been focusing on ants as a model system, performing research on their [communication](/projects/lasius_project/), colony organization, and foraging behaviors. During my [PhD](/projects/phd_project/), I investigated the movement patterns of ants as they were searching for resources of unknown location.
-During this time I also performed modeling studies on [collective behavior](/projects/swarm_project/) and track processing methods in [movement ecology](/projects/resample_project/).
+I mostly work in the lab but do the occasional field work. In my current position, which will end in 2031, I will mostly be working on cognition, learning exploration, video tracking, and boredom in ants.
